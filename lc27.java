@@ -43,4 +43,6 @@ public class lc27 {
 
         System.out.println("\nNew length: " + k);
     }
+
+    //need to understand this code
 }
