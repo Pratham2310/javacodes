@@ -3,6 +3,10 @@ public class lc26 {
     {
         int arr[]={0,0,1,1,2,2,3,3};
         int i=0;
+        if(arr.length==0)
+        {
+            System.out.println("array is of size zero");
+        }
         for(int j=1;j<arr.length;j++)
         {
             if(arr[j]!= arr[i])
